@@ -1,6 +1,10 @@
 import styled, { createGlobalStyle } from 'styled-components';
 //@ts-ignore
+
+// Beach Background
 import BGImage from './images/bg-image.jpg';
+// Night Background
+import BGImageNight from './images/bg-night.jpg';
 
 export const GlobalStyle = createGlobalStyle`
 html {
@@ -8,7 +12,7 @@ html {
 }
 
 body {
-    background-image: url(${BGImage});
+    background-image: url(${BGImageNight});
     background-size: cover;
     margin: 0;
     padding: 0 20px;
