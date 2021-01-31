@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { fetchQuizQuestions } from './API';
 
+// To do - Add more comments
 
 //Components
 import QuestionCard from './components/QuestionCard';
